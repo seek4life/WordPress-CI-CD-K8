@@ -22,16 +22,16 @@ We will set up continuous delivery pipelines for containerized (Docker) applicat
 
 Code developed in the laptop is checkout to SCM, in this case, GitHub after the code is committed. Once the code is approved it is merged to the master branch. Based on the requirement build will be triggered in Jenkins when the new code is detected or build is run based on the schedule.
 Jenkins does the below steps.
-1. clones the new code.
+1. **Clone the code repo**
 2. **Build the docker image** :
 Pulls the base docker images needed to build the application and builds the image using the Dockerfile that is available in the working directory. Once the image is successfully built it will then upload this image to the docker registry that is provided.
 3. **Testing the code**: 
 Static code analysis, Unit testing, integration testing is done in this step
-4. **Clean the old images**
+4. **Clean the old images**:
 This step cleans the unnecessary images and files on the server.
-5. Deploy Application (Future Enhancement)
+5. **Deploy Application**: (Future Enhancement)
 This step will enhance the functionality by having the option to deploy to different environments.
-6. Wait for services to be up or for 120 retries.
+6. **Wait for services to be up or for 120 retries**:
 This step will wait for the services to be up and accessible. This will wait for 120 retries.
 
 ### How to Run
@@ -55,4 +55,4 @@ Second, we need to create the pipeline in Jenkins.
 
 ### How to verify
 
-Successful completion of the build in Jenkins the result has the URL that can be used to access the WordPress application.
+On Successful completion of the build in Jenkins, the result log has the URL that can be used to access the WordPress application. Also, we can use the 'minikube service list' to get the URL to access the application.

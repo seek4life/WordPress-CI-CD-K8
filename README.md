@@ -36,7 +36,7 @@ This step will wait for the services to be up and accessible. This will wait for
 
 ###How to Run
 
-First, we need to have a Git repo URL, in this case:
+First, we need to have a Git repo URL, in this case: https://github.com/nagaraj1171/WordPress-CI-CD-K8.git
 
 Second, we need to create the pipeline in Jenkins.
 1. Go to New Item

@@ -1,7 +1,7 @@
 resources:
-    - mysql-volumeclaim.yaml
-    - wordpress-volumeclaim.yaml
-    - mysql.yaml
-    - mysql-services.yaml
-    - wordpress.yaml
-    - wordpress-service.yaml
+    - k8services/mysql-volumeclaim.yaml
+    - k8services/wordpress-volumeclaim.yaml
+    - k8services/mysql.yaml
+    - k8services/mysql-services.yaml
+    - k8services/wordpress.yaml
+    - k8services/wordpress-service.yaml

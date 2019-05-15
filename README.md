@@ -1,4 +1,4 @@
-# wordpress
+# WordPress Deployment Guide
 
 This test is to demo complete CI and CD of the WordPress CMS.
 This application does not use pre-built WordPress docker images.
@@ -14,7 +14,7 @@ Kubernetes
 
 ### Approach
 
-We will set up continuous delivery pipelines for containerized (Docker) application to Kubernetes. Through this approach plan to deliver the infrastructure as a code.
+We will set up continuous delivery pipelines for containerized (Docker) application to Kubernetes. Through this approach plan to deliver the infrastructure as a code. The backed database is MySQL.
 
 1. **Pipeline as code**: We use Jenkins file to create declarative pipelines
 2. **Infrastructure as code**: We containerize the application using Docker

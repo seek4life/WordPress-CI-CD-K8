@@ -1,8 +1,8 @@
-#wordpress
+# wordpress
 
 This test is to demo complete CI and CD of the WordPress CMS.
 This application does not use pre-built WordPress docker images.
-###Requirements
+### Requirements
 To demo the application git access to git repo is needed. To demonstrate the CICD Jenkins is used. To store the docker images public docker registry is used.
 
 **Required tools**
@@ -12,7 +12,7 @@ Jenkins
 Docker
 Kubernetes
 
-###Approach
+### Approach
 
 We will set up continuous delivery pipelines for containerized (Docker) application to Kubernetes. Through this approach plan to deliver the infrastructure as a code.
 
@@ -34,7 +34,7 @@ This step will enhance the functionality by having the option to deploy to diffe
 6. Wait for services to be up or for 120 retries.
 This step will wait for the services to be up and accessible. This will wait for 120 retries.
 
-###How to Run
+### How to Run
 
 First, we need to have a Git repo URL, in this case: https://github.com/nagaraj1171/WordPress-CI-CD-K8.git
 
@@ -53,6 +53,6 @@ Second, we need to create the pipeline in Jenkins.
    Ensure the script path to be Jenkinsfile
 8. Save the configuration. and Build the project by Build with Parameters.
 
-###How to verify
+### How to verify
 
 Successful completion of the build in Jenkins the result has the URL that can be used to access the WordPress application.

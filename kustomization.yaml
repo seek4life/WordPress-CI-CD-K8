@@ -1,0 +1,7 @@
+resources:
+    - mysql-volumeclaim.yaml
+    - wordpress-volumeclaim.yaml
+    - mysql.yaml
+    - mysql-services.yaml
+    - wordpress.yaml
+    - wordpress-service.yaml

@@ -1,4 +1,5 @@
-# WordPress Deployment Guide
+# *README.md*
+## WordPress Deployment Guide
 
 This test is to demo complete CI and CD of the WordPress CMS.
 This application does not use pre-built WordPress docker images.

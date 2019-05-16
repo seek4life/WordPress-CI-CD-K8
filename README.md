@@ -3,6 +3,9 @@
 
 This test is to demo complete CI and CD of the WordPress CMS.
 This application does not use pre-built WordPress docker images.
+
+The kube yaml is configured to create 2 WordPress application POD and 1 MySQL POD.
+
 ### Requirements
 To demo the application git access to git repo is needed. To demonstrate the CICD Jenkins is used. To store the docker images public docker registry is used.
 

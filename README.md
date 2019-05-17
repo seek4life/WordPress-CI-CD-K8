@@ -60,3 +60,5 @@ Second, we need to create the pipeline in Jenkins.
 ### How to verify
 
 On Successful completion of the build in Jenkins, the result log has the URL that can be used to access the WordPress application. Also, we can use the 'minikube service list' to get the URL to access the application.
+
+**Note: Please change manually the image and registry tag in Jenkinsfile and wordpress.yaml to use the rite image.**
